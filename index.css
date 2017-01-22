@@ -1,0 +1,71 @@
+/* site.css */
+
+body {
+color: black;
+background-color: white;
+font-family: sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: blue;
+}
+a:hover{
+  color: red;
+}
+a:active {
+  color: orange;
+}
+
+header {
+  color: white;
+  background-color : navy;
+  padding: 10px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+color: white;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  background-color: blue;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 6px;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+}
+
+p {
+  color: black;
+}
+
+article {
+  margin-left: 25px;
+}
+
+footer {
+}
